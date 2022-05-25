@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8"/>
+	 <title>登录</title>
+	 <link rel="stylesheet" href="./css/denglu.css"/>
+  </head>
+  <body>
+      <div class="aaaa">
+        <div class="logo">
+             <div id="pic">
+           <img id="a2" src="./pic/logo.png">
+           <h1 id="a3">大数据教学管理系统</h1>
+             </div>
+        </div>
+        <div id="a1">
+          <p id="aa1">登录</p>
+          <input v- model="username" placeholder="请输入用户名" class="button">
+        </input>
+        <input v- model="password" placeholder="请输入密码" class="button">
+      </input>
+          <button type="primary" class="button2">
+            登录
+          </button>
+          <router-link to ="/" tag="span" id="aa2">忘记密码</router-link>
+        </div>
+        <div id="p2">
+          <p>中科安高（北京）科技有限公司技术支持</p>
+      </div>
+      </div>
+  </body>
+</html>
